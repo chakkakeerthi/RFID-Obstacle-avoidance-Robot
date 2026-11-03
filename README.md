@@ -1,9 +1,6 @@
 # RFID-Obstacle-avoidance-Robot
 
-![Robot Demo](1000048095.gif)
-*(Above: The robot actively evading obstacles after being unlocked via RFID)*
-
-**🏆 1st Place Winner - Robomantham Hackathon**
+**🏆 1st Place Winner - Robomanthan Hackathon**
 
 Most basic obstacle-avoiding chassis are "always-on" the moment they get power. For this hackathon, we built a 2WD autonomous rover with an integrated hardware security layer. The drive system remains completely deadlocked until an authorized RFID card is scanned. Once authenticated, it navigates its environment using real-time ultrasonic echolocation, and instantly shuts down when a designated kill-tag is scanned. 
 
@@ -47,6 +44,15 @@ If you are replicating this build, pay attention to these hardware constraints w
 * **Strict 3.3V Logic:** The RC522 is highly sensitive. Supplying it with 5V from the Arduino will instantly and permanently burn out the module. 
 * **Header Pin Integrity:** If your reader is failing to initialize (throwing a `Firmware 0x80` error in the serial monitor), check your soldering. Push-fit jumper wires on unsoldered header pins will fail under the vibration of the driving chassis. 
 * **Common Grounding:** The L298N motor driver and the Arduino Uno MUST share a ground wire, otherwise the PWM/Digital signals sent to IN1-IN4 will float and the wheels will refuse to spin.
+
+## Project showcase
+* Working prototype:
+https://github.com/user-attachments/assets/202b29a1-d7bd-4d69-a10a-2546b1914843
+* The Robot:
+<img width="1200" height="1600" alt="RFID robot" src="https://github.com/user-attachments/assets/4c0e41a5-242f-46a7-bd6b-7d62ab4287b5" />
+* Top view:
+<img width="1600" height="1200" alt="RFID robot top view" src="https://github.com/user-attachments/assets/66f0b6d9-3f4b-4769-a51b-b7175d018a38" />
+
 
 ## Contributing
 Feel free to open an issue or submit a pull request if you have ideas on adding PID control for smoother turning or upgrading to an ESP32 for remote logging.
