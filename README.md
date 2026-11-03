@@ -46,12 +46,15 @@ If you are replicating this build, pay attention to these hardware constraints w
 * **Common Grounding:** The L298N motor driver and the Arduino Uno MUST share a ground wire, otherwise the PWM/Digital signals sent to IN1-IN4 will float and the wheels will refuse to spin.
 
 ## Project showcase
+* Our prize:
+<img width="1280" height="695" alt="1000048359" src="https://github.com/user-attachments/assets/1f9de3fe-ddc3-4f27-8119-ae2f7b2f9af1" />
 * Working prototype:
 https://github.com/user-attachments/assets/202b29a1-d7bd-4d69-a10a-2546b1914843
 * The Robot:
 <img width="1200" height="1600" alt="RFID robot" src="https://github.com/user-attachments/assets/4c0e41a5-242f-46a7-bd6b-7d62ab4287b5" />
 * Top view:
 <img width="1600" height="1200" alt="RFID robot top view" src="https://github.com/user-attachments/assets/66f0b6d9-3f4b-4769-a51b-b7175d018a38" />
+
 
 
 ## Contributing
