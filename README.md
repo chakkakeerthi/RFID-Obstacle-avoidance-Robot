@@ -50,6 +50,7 @@ If you are replicating this build, pay attention to these hardware constraints w
 <img width="1280" height="695" alt="1000048359" src="https://github.com/user-attachments/assets/1f9de3fe-ddc3-4f27-8119-ae2f7b2f9af1" />
 * Working prototype:
 https://github.com/user-attachments/assets/202b29a1-d7bd-4d69-a10a-2546b1914843
+
 * The Robot:
 <img width="1200" height="1600" alt="RFID robot" src="https://github.com/user-attachments/assets/4c0e41a5-242f-46a7-bd6b-7d62ab4287b5" />
 * Top view:
